@@ -1,0 +1,390 @@
+/*________________________start of webpage Header tag defined here___________________*/
+		header
+		{
+			font-size:60px;
+
+			text-align:center;
+
+			font-family:sans-serif;
+
+			letter-spacing:6px;
+
+			text-transform:uppercase;
+
+			text-shadow:10px 10px 2px #42C0FB;
+
+			font-variant:small-caps;
+
+			height:40%
+
+			margin-bottom:0%;
+
+			position: fixed;
+		 
+			right: 0;
+		 
+			left: 0;
+			
+		}	
+/*_______________________________________ Defining Navigation bar from here ________________________________*/
+		nav 
+		{
+		 
+			position: fixed;
+		 
+			right: 0;
+		 
+			left: 0;
+
+			background:#42C0FB;
+
+			height:17%;
+
+			margin-top:4%;
+
+		 	
+		}
+/*_______________________________________ bnavigation list items class ________________________________*/
+		nav ul li
+		{
+			display:inline;
+
+			position:relative;
+
+			left:23%;
+		}
+/*_______________________________________ controlling of HERO Image  ________________________________*/
+		img
+		{
+			position:relative;
+
+			margin-top:12%;
+
+			width:100%;
+
+			height:76%
+		}
+/*_______________________________________ Navigation list anchor items control  ________________________________*/
+		nav ul li a
+		{
+			color:dimgrey;
+			
+			text-decoration: none;
+			
+			font-size:30px;
+			
+			top:70%;
+			
+			right:5%;
+			
+			text-shadow:3px 3px 15px blue;
+			
+			border-style:solid;
+			
+			border: 2px solid grey;
+			
+			text-align:center;
+			
+			width:120px;
+
+
+			border-radius: 25px;
+		    
+		   	padding:7px;
+		}
+/*_______________________________________ Controlling the hover over anchor elements ________________________________*/
+		nav ul a:hover
+		{
+			font-size:50px;
+
+			padding:3px;
+
+			color:orange;
+
+			border: 2px solid orange;
+
+		}
+/*_______________________________________ Creating a section ________________________________*/
+		section
+		{
+			padding-top:1%;
+
+			margin-bottom:0px;
+		}
+/*_______________________________________ Class for full body ________________________________*/
+		body,html
+		{
+			height:100%;
+
+			margin:0;
+		}
+/*_______________________________________ Class for image to go in background  ________________________________*/
+		img
+		{
+			 z-index: -1;
+		}
+/*_______________________________________ control of class = main ________________________________*/
+		.main
+		{
+			margin:auto;
+
+			width:70%;
+		}
+		.main1
+		{
+			margin-top:2%;
+
+			width:90%;
+		}
+
+		.foot1
+		{
+			height:60%;
+		}
+/*_______________________________________ creation of footer class ________________________________*/
+		footer
+		{
+			height:50%;
+
+			background:#202020; 
+		}
+/*_______________________________________ footer ul elements control ________________________________*/
+		footer ul
+		{
+			margin-left:20%;
+		}
+/*_______________________________________ footer ul>li elemnts control class  ________________________________*/
+		footer ul li
+		{
+			display:inline;
+
+			margin-left: 4%;
+		}
+/*_______________________________________ footer anchor elemnt control ________________________________*/
+		footer ul li a
+		{
+			width:5%;
+
+			color:white;
+
+			text-decoration: none;
+		}
+/*_______________________________________ footer and foot2 class control ________________________________*/
+		footer .foot2
+		{
+			font-size:60px;
+
+			color:orange;
+
+			text-align:center;
+
+			font-weight: bold;
+
+			font-family:sans-serif;
+
+			letter-spacing:6px;
+
+			text-transform:uppercase;
+
+			text-shadow:10px 10px 15px #42C0FB;
+
+			font-variant:small-caps;
+
+			height:40%
+
+			margin-bottom:0%;
+
+		}
+/*_______________________________________  creation of a vertical Line in the page and its positioning  ________________________________*/
+		.verticalLine 
+		{
+			  width: 0.6px; /* Line width */
+		    
+		      background-color: black; /* Line color */
+		    
+		      height: 29%; /* Override in-line if you want specific height. */
+
+		      float: center;
+
+		      margin-top:-3%;
+
+		  	  position:absolute;
+
+		  	  left:49%;
+		}
+/*_______________________________________ creating one button over ________________________________*/
+		.btn 
+		{
+		    position: absolute;
+
+		    top: 90%;
+
+		    left: 90%;
+
+		    transform: translate(-50%, -50%);
+
+		    -ms-transform: translate(-50%, -50%);
+
+		    background-color:#42C0FB;
+
+		    color: black;
+
+		    font-size: 16px;
+
+		    padding: 16px 30px;
+
+		    border: none;
+
+		    cursor: pointer;
+
+		    border-radius: 25px;
+
+		    text-align: center;
+
+		    text-shadow:3px 3px 15px blue;
+		}
+/*_______________________________________ Look of button on hover ________________________________*/
+		.btn:hover
+		{
+			font-size:50px;
+
+			padding:16px 30px;
+
+			font-weight:bold;
+
+			border-radius:200px;
+
+			color:orange;
+
+			border: 2px solid orange;
+
+			border-style:solid;
+		}
+/*_______________________________________ creating a class for know more button  ________________________________*/
+		.know
+		{
+		    font-color:#42C0FB;
+		 
+		    font-size: 16px;
+		 
+		    padding: 10px 20px;
+		 
+		    border: none;
+		 
+		    cursor: pointer;
+		 
+		    border-radius: 5px;
+		 
+		    text-align: center;
+		 
+		    text-shadow:3px 3px 15px grey;
+
+			text-align:right;
+		}
+/*_______________________________________ controlling the know more button anchor element________________________________*/
+		.know a
+		{
+		 	text-decoration: none;
+		 		 
+		 	font-size:26px;
+
+			font-weight:bold;
+		}
+/*_______________________________________ Hover over know more ________________________________*/
+		.know a:hover
+		{	
+			font-size:30px;
+
+			padding:3px;
+
+			font-weight:bold;
+
+			border-radius:10px;
+
+			border: 4px solid #42C0FB;
+
+			border-style:solid;	
+		}
+/*_______________________________________ creating a class conn creation________________________________*/
+		.conn
+		{
+			font-family:sans-serif;
+
+			font-size:60px;
+
+			text-align:center;
+
+			letter-spacing:8px;
+
+			font-variant:small-caps;
+
+			font-weight: bold;
+
+		}
+/*_______________________________________ Side class creation ________________________________*/
+		.side
+		{
+			font-family:sans-serif;
+
+			font-size:30px;
+
+			text-align:center;
+
+			letter-spacing:8px;
+
+			font-variant:small-caps;
+
+			font-weight: bold;
+
+			margin-left:40%;
+		}
+/*_______________________________________  ss class creation ________________________________*/
+		.ss
+		{
+			color:dimgrey;
+			
+			text-decoration: none;
+			
+			font-size:30px;
+			
+			position:absolute;
+			
+			left:20%;
+			
+			text-shadow:3px 3px 15px red;
+			
+			border-style:solid;
+			
+			border: 2px solid grey;
+			
+			text-align:center;
+			
+			width:120px;
+
+			border-radius: 25px;
+		    
+		   	padding:7px;
+		}
+		.ss a
+		{
+			text-decoration: none;
+		}
+		.ss a:hover
+		{
+			font-size:50px;
+
+			padding:3px;
+
+			font-weight:bold;
+
+			border-radius:10px;
+
+			border: 0px solid skyblue;
+
+			border-style:solid;
+		}
+/*_______________________________________ controlling the hover over the image  ________________________________*/
+		img a:hover
+		{
+			size:20%;
+		}
